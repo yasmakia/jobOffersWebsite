@@ -1,0 +1,232 @@
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+nav {
+    background-color: #7650E0;
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    width: 240px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+nav .logo img{
+    width: 160px;
+    height:44PX;
+}
+nav .pages {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 4;
+}
+ul li {
+    list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav .pages ul li{
+    display: flex;
+    margin: 16px;
+}
+nav .pages ul li a{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav-button {
+  width: 100px;
+  padding: 20px 20px 20px 24px;
+
+}
+
+.nav-button svg path{
+  fill: #F4F5F9;
+
+}
+.nav-button:hover svg path{
+  fill: #7650E0;
+}
+
+.nav-button:hover {
+color: black;
+background-color: white;
+border-radius: 20px;
+}
+nav .logout a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: white;
+}
+.container {
+    flex: 5;
+    padding: 16px;
+    background-color: #F4F5F9;
+    overflow-y: scroll;
+}
+#user-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+#title-print-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.print-button {
+    background-color: #7650E0;
+    color: white;
+    height: 38px;
+    width: 182px;
+    left: 938px;
+    top: 0px;
+    border-radius: 10px;
+    padding: 8px 16px 8px 16px;
+    border: none;
+}
+#filters-sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#sort {
+    display: flex;
+    flex-direction: row;
+}
+.job-offer-box {
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.job-offer-box:hover {
+  cursor: pointer;
+}
+.job-offer-reduced {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.job-offer-reduced:hover {
+  cursor: pointer;
+}
+.reduced {
+  padding: 10px;
+  margin: 10px;
+}
+.company-informations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8px;
+}
+.company-first-letter {
+    width: 76px;
+    height: 76px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #7650E0;
+  }
+.job-infos {
+  padding: 16px;
+}
+.remote-work-class-full {
+  color: #0074FF;
+  margin: 8px;
+  padding: 8px ;;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.remote-work-class-eventually {
+  color: #7650E0;
+  margin: 8px;
+  padding: 8px ;;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.remote-work-class-regularly {
+  color: #F0BA1C;;
+  margin: 8px;
+  padding: 8px ;;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.job-info-detailed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-infos {
+  margin: 8px;
+}
+.job-title {
+  font-size: larger;
+}
+.infos-reduced {
+  margin-top: 8px;
+}
+.infos {
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.applay{
+  color: #7650E0;
+  display: flex;
+  justify-content: flex-end;
+  margin: 8px;
+}
+select[multiple] {
+  background:none;
+  padding:8px;
+  margin:8px;
+  border-width: 1px;
+  border-color: #7650E0;
+  border-radius: 8px;
+  background-color: white;
+  border-style: inset;
+  -moz-appearance: menulist;
+  -webkit-appearance: menulist;
+  appearance: menulist;
+}
+#sort-choice {
+  background: none;
+  border: none;
+  color: #7650E0;
+}
+  
+  
+  
